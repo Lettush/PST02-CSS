@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .static {
+            position: static; /* DEFAULT */
+            background-color: lightblue;
+            width: 200px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .relative {
+            position: relative;
+            background-color: lightgreen;
+            width: 90%;
+            height: 300px;
+            padding: 10px;
+            margin-bottom: 10px;
+
+            /* Positioning Properties */
+            /* top, right, bottom, left */
+            top: 50px;
+            /* left: 50px; */
+        }
+
+        .absolute {
+            position: absolute;
+            background-color: lightgoldenrodyellow;
+            width: 150px;
+            padding: 10px;
+
+            /* Positioning Properties */
+            /* top, right, bottom, left */
+            bottom: 0;
+            left: 0;
+        }
+
+        .fixed {
+            position: fixed;
+            background-color: lightpink;
+            width: 100%;
+            padding: 10px;
+
+            /* Positioning Properties */
+            /* top, right, bottom, left */
+            bottom: 0;
+        }
+
+        .sticky {
+            position: sticky;
+            background-color: blanchedalmond;
+            width: 100%;
+            padding: 10px;
+
+            /* Positioning Properties */
+            /* top, right, bottom, left */
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Position Property Example</h1>
+
+    <div class="static">Static Position</div>
+    <div class="relative">
+        <div class="absolute">Absolute Position</div>
+    </div>
+    
+    <div class="fixed">Fixed Position</div>
+    <div class="sticky">Sticky Position</div>
+
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis ut, omnis sunt nesciunt aperiam accusantium vel nostrum eligendi laboriosam! Deserunt, hic fugiat eius, quod fugit autem temporibus dicta impedit doloribus sed architecto dolor esse neque nam vitae placeat eum rem iusto debitis aspernatur similique! Quam quia dolor, maxime iure saepe dolorem ex exercitationem quaerat provident facere iste ratione architecto? Cumque, mollitia provident? Nihil provident possimus soluta reiciendis quae architecto exercitationem culpa, consequatur obcaecati tempora sunt, iste alias ipsam? Odio earum, delectus ab ullam tempora ad harum unde consectetur? Molestiae saepe pariatur eos incidunt possimus quaerat error rem eum delectus culpa?
+</body>
+</html>
